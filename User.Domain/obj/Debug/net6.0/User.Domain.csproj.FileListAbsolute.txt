@@ -1,0 +1,17 @@
+D:\vtalk-donet\User.Domain\bin\Debug\net6.0\User.Domain.deps.json
+D:\vtalk-donet\User.Domain\bin\Debug\net6.0\User.Domain.runtimeconfig.json
+D:\vtalk-donet\User.Domain\bin\Debug\net6.0\User.Domain.dll
+D:\vtalk-donet\User.Domain\bin\Debug\net6.0\User.Domain.pdb
+D:\vtalk-donet\User.Domain\bin\Debug\net6.0\Common.dll
+D:\vtalk-donet\User.Domain\bin\Debug\net6.0\Common.pdb
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.csproj.AssemblyReference.cache
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.AssemblyInfoInputs.cache
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.AssemblyInfo.cs
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.csproj.CoreCompileInputs.cache
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.csproj.CopyComplete
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.dll
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\refint\User.Domain.dll
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.pdb
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\User.Domain.genruntimeconfig.cache
+D:\vtalk-donet\User.Domain\obj\Debug\net6.0\ref\User.Domain.dll

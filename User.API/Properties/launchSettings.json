@@ -1,0 +1,39 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:8596",
+      "sslPort": 44320
+    }
+  },
+  "profiles": {
+    "User.API": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7104;http://localhost:5245",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_HOST": ".\\sqlexpress",
+        "DB_NAME": "vtalk-user",
+        "DB_USERID": "anhvy",
+        "DB_PASSWORD": "abc#191199"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DB_HOST": ".\\sqlexpress",
+        "DB_NAME": "vtalk-user",
+        "DB_USERID": "anhvy",
+        "DB_PASSWORD": "abc#191199"
+      }
+    }
+  }
+}
