@@ -1,0 +1,46 @@
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/api/channel",
+      "UpstreamHttpMethod": [ "Get" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "channel.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/channel"
+    },
+    {
+      "UpstreamPathTemplate": "/api/channel/create",
+      "UpstreamHttpMethod": [ "Post" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "channel.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/channel/create"
+    },
+    {
+      "UpstreamPathTemplate": "/api/channel/{channelId}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "channel.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/channel/{channelId}"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl":  "https://localhost:800"
+  }
+}

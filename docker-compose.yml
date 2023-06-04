@@ -1,0 +1,38 @@
+version: '3.4'
+
+networks:
+  network-vtalk-channel:
+
+services:
+  channelapidb:
+    container_name: vtalkchanneldb
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=abc#191199
+    networks:
+      - network-vtalk-channel
+    ports:
+      - 8001:1433
+  channel.api:
+    image: ${DOCKER_REGISTRY-}channelapi
+    build:
+      context: .
+      dockerfile: Channel.API/Dockerfile
+    networks:
+      - network-vtalk-channel
+    environment:
+      - DB_HOST=channelapidb
+      - DB_NAME=vtalk-channel
+      - DB_USERID=sa
+      - DB_PASSWORD=abc#191199
+  apigateway:
+    container_name: api-gateway
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/Dockerfile
+    networks:
+      - network-vtalk-channel
+    ports:
+      - 8080:80

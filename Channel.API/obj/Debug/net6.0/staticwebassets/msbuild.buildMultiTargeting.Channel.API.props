@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Channel.API.props" />
+</Project>
