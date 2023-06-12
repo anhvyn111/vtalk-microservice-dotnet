@@ -2,6 +2,7 @@
 using Channel.Repository.Interface;
 using Infrastructure.ApiRoutes;
 using Microsoft.AspNetCore.Mvc;
+using Services;
 
 namespace Channel.API.Controllers
 {
@@ -10,10 +11,11 @@ namespace Channel.API.Controllers
     public class ChannelController : Controller
     {
         private readonly IChannelRepository _channelRepository;
-
-        public ChannelController(IChannelRepository channelRepository)
+        private readonly IUserService _userService;
+        public ChannelController(IChannelRepository channelRepository, IUserService userService)
         {
             _channelRepository = channelRepository;
+            _userService = userService;
         }
 
         [HttpGet("getall")]
@@ -39,6 +41,11 @@ namespace Channel.API.Controllers
         [HttpPost(ApiRoutes.Channel.CREATE)]
         public async Task<IActionResult> CreateAsync(ChannelDTO channelDTO)
         {
+            var user = await _userService.GetByIdAsync(channelDTO.CreatedBy);
+            if (user == null) 
+            {
+                return NotFound("User not found");
+            }
             var newChannelResult = await _channelRepository.CreateChannelAsync(channelDTO);
             
             if (newChannelResult != null)
@@ -49,7 +56,7 @@ namespace Channel.API.Controllers
             return BadRequest();
         }
 
-        [HttpPut(ApiRoutes.Channel.UPDATE)]
+        [HttpPost(ApiRoutes.Channel.UPDATE)]
         public async Task<IActionResult> UpdateAsync(ChannelDTO channelDTO)
         {
             var channel = await _channelRepository.GetByIdAsync(channelDTO.Id);

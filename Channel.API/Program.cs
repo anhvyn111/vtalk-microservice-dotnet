@@ -2,6 +2,7 @@ using Channel.Domain.Context;
 using Channel.Repository.Implementation;
 using Channel.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
+using Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,15 +13,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IChannelRepository, ChannelRepository>();
+builder.Services.AddHttpClient<IUserService, UserService>();
 //var connectionString = Environment.GetEnvironmentVariable("CONNECTION_STRING");
 
 var dbHost = Environment.GetEnvironmentVariable("DB_HOST") ?? builder.Configuration.GetConnectionString("DB_HOST");
 var dbName = Environment.GetEnvironmentVariable("DB_NAME") ?? builder.Configuration.GetConnectionString("DB_NAME");
 var dbUserId = Environment.GetEnvironmentVariable("DB_USERID") ?? builder.Configuration.GetConnectionString("DB_USERID");
 var dbPassword = Environment.GetEnvironmentVariable("DB_PASSWORD") ?? builder.Configuration.GetConnectionString("DB_PASSWORD");
-var connectionString = $"Data Source=.\\sqlexpress;initial catalog=vtalk-user;user id=anhvy;password=abc#191199;Encrypt=False";
-Console.WriteLine(connectionString);
+var connectionString = $"Data Source={dbHost};initial catalog={dbName};user id={dbUserId};password={dbPassword};Encrypt=False";
 builder.Services.AddDbContext<ChannelContext>(options => options.UseSqlServer(connectionString));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

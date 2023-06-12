@@ -28,13 +28,13 @@ namespace Channel.Domain.Entities
 
         public ChannelEntity() { }
 
-        public ChannelEntity(string name, string avatar)
+        public ChannelEntity(string name, string avatar, Guid createdBy)
         {
             ChannelName = name;
             Avatar = avatar;
             InvitationCode = StringExtension.RandomString(15);
             CreatedAt = DateTime.UtcNow;
-            CreatedBy = new Guid();
+            CreatedBy = createdBy;
         }
 
         public void Update(ChannelDTO dto)
@@ -42,7 +42,7 @@ namespace Channel.Domain.Entities
             ChannelName = dto.Name;
             Avatar = dto.Avatar;
             UpdatedAt = DateTime.UtcNow;
-            UpdatedBy = new Guid();
+            UpdatedBy = dto.CreatedBy;
         }
     }
 }

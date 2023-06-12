@@ -66,8 +66,14 @@ D:\vtalk-donet\User.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text
 D:\vtalk-donet\User.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\vtalk-donet\User.API\bin\Debug\net6.0\Common.dll
 D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Domain.dll
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Infrastructure.dll
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Model.dll
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Repository.dll
 D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Domain.pdb
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Model.pdb
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Repository.pdb
 D:\vtalk-donet\User.API\bin\Debug\net6.0\Common.pdb
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Infrastructure.pdb
 D:\vtalk-donet\User.API\obj\Debug\net6.0\User.API.csproj.AssemblyReference.cache
 D:\vtalk-donet\User.API\obj\Debug\net6.0\User.API.GeneratedMSBuildEditorConfig.editorconfig
 D:\vtalk-donet\User.API\obj\Debug\net6.0\User.API.AssemblyInfoInputs.cache
@@ -89,3 +95,7 @@ D:\vtalk-donet\User.API\obj\Debug\net6.0\refint\User.API.dll
 D:\vtalk-donet\User.API\obj\Debug\net6.0\User.API.pdb
 D:\vtalk-donet\User.API\obj\Debug\net6.0\User.API.genruntimeconfig.cache
 D:\vtalk-donet\User.API\obj\Debug\net6.0\ref\User.API.dll
+D:\vtalk-donet\User.API\bin\Debug\net6.0\AutoMapper.dll
+D:\vtalk-donet\User.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Mapper.dll
+D:\vtalk-donet\User.API\bin\Debug\net6.0\User.Mapper.pdb

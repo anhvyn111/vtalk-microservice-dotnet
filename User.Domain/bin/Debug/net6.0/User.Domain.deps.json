@@ -11,7 +11,8 @@
           "Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.Design": "7.0.5",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "User.Model": "1.0.0"
         },
         "runtime": {
           "User.Domain.dll": {}
@@ -699,6 +700,11 @@
         "runtime": {
           "Common.dll": {}
         }
+      },
+      "User.Model/1.0.0": {
+        "runtime": {
+          "User.Model.dll": {}
+        }
       }
     }
   },
@@ -1178,6 +1184,11 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "User.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

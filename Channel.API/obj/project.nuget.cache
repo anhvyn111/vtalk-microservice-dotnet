@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NR1QBoaa7j9AgGdriEzXvMd7WUdHdm8u0JvXxeE71McsL7i0+uLZKx+G2VA6V9a+xl3S9JekJ9ef3IpNZoKY9A==",
+  "dgSpecHash": "pjd2yiEqYnJuW2SXOyidunO3QX+wEEhegOl7JGwmUpPshOyv3vF4M0ZKYgdsP5x03SxMaSZrDTV6ZUQ5EM8x+w==",
   "success": true,
   "projectFilePath": "D:\\vtalk-donet\\Channel.API\\Channel.API.csproj",
   "expectedPackageFiles": [
@@ -40,6 +40,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

@@ -33,6 +33,7 @@ D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -61,9 +62,11 @@ D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Channel.Model.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Channel.Repository.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Common.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Infrastructure.dll
+D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Services.dll
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Channel.Model.pdb
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Channel.Repository.pdb
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Infrastructure.pdb
+D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Services.pdb
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Channel.Domain.pdb
 D:\vtalk-donet\Channel.API\bin\Debug\net6.0\Common.pdb
 D:\vtalk-donet\Channel.API\obj\Debug\net6.0\Channel.API.csproj.AssemblyReference.cache

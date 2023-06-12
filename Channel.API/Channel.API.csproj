@@ -18,6 +18,7 @@
     <ProjectReference Include="..\Channel.Model\Channel.Model.csproj" />
     <ProjectReference Include="..\Channel.Service\Channel.Repository.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Services\Services.csproj" />
   </ItemGroup>
 
 </Project>

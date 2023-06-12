@@ -13,5 +13,9 @@ namespace Channel.Model.DTO
         [Required]
         public string Name { get; set; }
         public string Avatar { get; set; }
+        public Guid CreatedAt { get; set; }
+        public Guid CreatedBy { get; set; }
+        public DateTime UpdatedAt { get; set; }
+        public Guid UpdatedBy { get; set; }
     }
 }

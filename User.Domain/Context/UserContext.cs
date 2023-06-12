@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using User.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
 
 namespace User.Domain.Context
 {

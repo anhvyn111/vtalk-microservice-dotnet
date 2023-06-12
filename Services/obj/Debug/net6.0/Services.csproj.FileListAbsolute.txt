@@ -1,0 +1,15 @@
+D:\vtalk-donet\Services\bin\Debug\net6.0\Services.deps.json
+D:\vtalk-donet\Services\bin\Debug\net6.0\Services.dll
+D:\vtalk-donet\Services\bin\Debug\net6.0\Services.pdb
+D:\vtalk-donet\Services\bin\Debug\net6.0\Channel.Model.dll
+D:\vtalk-donet\Services\bin\Debug\net6.0\Channel.Model.pdb
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.csproj.CopyComplete
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.dll
+D:\vtalk-donet\Services\obj\Debug\net6.0\refint\Services.dll
+D:\vtalk-donet\Services\obj\Debug\net6.0\Services.pdb
+D:\vtalk-donet\Services\obj\Debug\net6.0\ref\Services.dll

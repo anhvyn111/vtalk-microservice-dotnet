@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using User.Model.DTO;
 
 namespace User.Domain.Entities
 {
@@ -31,5 +32,14 @@ namespace User.Domain.Entities
         public virtual DateTime? UpdatedAt { get; set; }
 
         public UserEntity() { }
+
+        public UserEntity(RegisterUserDTO dto)
+        {
+            FirstName = dto.FirstName;
+            LastName = dto.LastName;
+            Email = dto.Email;
+            Password = dto.Password;
+            CreatedAt = DateTime.UtcNow;
+        }
     }
 }

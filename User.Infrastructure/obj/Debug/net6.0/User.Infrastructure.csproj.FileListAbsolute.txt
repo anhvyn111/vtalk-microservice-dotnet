@@ -1,0 +1,12 @@
+D:\vtalk-donet\User.Infrastructure\bin\Debug\net6.0\User.Infrastructure.deps.json
+D:\vtalk-donet\User.Infrastructure\bin\Debug\net6.0\User.Infrastructure.dll
+D:\vtalk-donet\User.Infrastructure\bin\Debug\net6.0\User.Infrastructure.pdb
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\User.Infrastructure.csproj.AssemblyReference.cache
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\User.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\User.Infrastructure.AssemblyInfoInputs.cache
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\User.Infrastructure.AssemblyInfo.cs
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\User.Infrastructure.csproj.CoreCompileInputs.cache
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\User.Infrastructure.dll
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\refint\User.Infrastructure.dll
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\User.Infrastructure.pdb
+D:\vtalk-donet\User.Infrastructure\obj\Debug\net6.0\ref\User.Infrastructure.dll

@@ -1,7 +1,9 @@
 D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Channel.Domain.deps.json
 D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Channel.Domain.dll
 D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Channel.Domain.pdb
+D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Channel.Model.dll
 D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Common.dll
+D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Channel.Model.pdb
 D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Common.pdb
 D:\vtalk-donet\Channel.Domain\obj\Debug\net6.0\Channel.Domain.csproj.AssemblyReference.cache
 D:\vtalk-donet\Channel.Domain\obj\Debug\net6.0\Channel.Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,5 +15,3 @@ D:\vtalk-donet\Channel.Domain\obj\Debug\net6.0\Channel.Domain.dll
 D:\vtalk-donet\Channel.Domain\obj\Debug\net6.0\refint\Channel.Domain.dll
 D:\vtalk-donet\Channel.Domain\obj\Debug\net6.0\Channel.Domain.pdb
 D:\vtalk-donet\Channel.Domain\obj\Debug\net6.0\ref\Channel.Domain.dll
-D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Channel.Model.dll
-D:\vtalk-donet\Channel.Domain\bin\Debug\net6.0\Channel.Model.pdb

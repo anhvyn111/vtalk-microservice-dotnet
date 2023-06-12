@@ -1,6 +1,6 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0.16 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
 
@@ -12,6 +12,8 @@ COPY ["Channel.Service/Channel.Repository.csproj", "Channel.Service/"]
 COPY ["Channel.Domain/Channel.Domain.csproj", "Channel.Domain/"]
 COPY ["Common/Common.csproj", "Common/"]
 COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
+COPY ["Services/Services.csproj", "Services/"]
+
 RUN dotnet restore "Channel.API/Channel.API.csproj"
 COPY . .
 WORKDIR "/src/Channel.API"

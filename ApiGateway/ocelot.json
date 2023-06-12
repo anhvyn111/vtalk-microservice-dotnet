@@ -38,6 +38,46 @@
         }
       ],
       "DownstreamPathTemplate": "/api/channel/{channelId}"
+    },
+    {
+      "UpstreamPathTemplate": "/api/channel/update",
+      "UpstreamHttpMethod": [ "Post" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "channel.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/channel/update"
+    },
+    //User API
+    {
+      "UpstreamPathTemplate": "/api/user/create",
+      "UpstreamHttpMethod": [ "Post" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "user.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/user/create"
+    },
+    {
+      "UpstreamPathTemplate": "/api/user/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ],
+
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "user.api",
+          "Port": 80
+        }
+      ],
+      "DownstreamPathTemplate": "/api/user/{id}"
     }
   ],
   "GlobalConfiguration": {

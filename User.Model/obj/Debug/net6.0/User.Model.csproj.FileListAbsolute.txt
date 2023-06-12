@@ -1,0 +1,12 @@
+D:\vtalk-donet\User.Model\bin\Debug\net6.0\User.Model.deps.json
+D:\vtalk-donet\User.Model\bin\Debug\net6.0\User.Model.dll
+D:\vtalk-donet\User.Model\bin\Debug\net6.0\User.Model.pdb
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\User.Model.csproj.AssemblyReference.cache
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\User.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\User.Model.AssemblyInfoInputs.cache
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\User.Model.AssemblyInfo.cs
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\User.Model.csproj.CoreCompileInputs.cache
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\User.Model.dll
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\refint\User.Model.dll
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\User.Model.pdb
+D:\vtalk-donet\User.Model\obj\Debug\net6.0\ref\User.Model.dll

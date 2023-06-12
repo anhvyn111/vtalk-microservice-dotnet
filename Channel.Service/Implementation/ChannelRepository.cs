@@ -3,12 +3,6 @@ using Channel.Domain.Entities;
 using Channel.Model.DTO;
 using Channel.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Channel.Repository.Implementation
 {
@@ -34,7 +28,7 @@ namespace Channel.Repository.Implementation
 
         public async Task<ChannelEntity> CreateChannelAsync(ChannelDTO channelDTO)
         {
-            var newChannel = new ChannelEntity(channelDTO.Name, channelDTO.Avatar);
+            var newChannel = new ChannelEntity(channelDTO.Name, channelDTO.Avatar, channelDTO.CreatedBy);
             await _context.Channels.AddAsync(newChannel);
             await _context.SaveChangesAsync();
             return newChannel;

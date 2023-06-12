@@ -1153,6 +1153,16 @@
         "runtime": {
           "bin/placeholder/Common.dll": {}
         }
+      },
+      "User.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/User.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/User.Model.dll": {}
+        }
       }
     }
   },
@@ -3478,6 +3488,11 @@
       "type": "project",
       "path": "../Common/Common.csproj",
       "msbuildProject": "../Common/Common.csproj"
+    },
+    "User.Model/1.0.0": {
+      "type": "project",
+      "path": "../User.Model/User.Model.csproj",
+      "msbuildProject": "../User.Model/User.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3485,7 +3500,8 @@
       "Common >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
+      "User.Model >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3517,6 +3533,9 @@
           "projectReferences": {
             "D:\\vtalk-donet\\Common\\Common.csproj": {
               "projectPath": "D:\\vtalk-donet\\Common\\Common.csproj"
+            },
+            "D:\\vtalk-donet\\User.Model\\User.Model.csproj": {
+              "projectPath": "D:\\vtalk-donet\\User.Model\\User.Model.csproj"
             }
           }
         }
